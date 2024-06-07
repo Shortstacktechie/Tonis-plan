@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 500px){
+.past{
+    display: block;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 13rem;
+    max-width: 430px;
+    background-color: rgb(247, 224, 231);
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+.sat{
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 175px;
+    border-radius: 20px;
+}
+img{
+    position: absolute; 
+    display: flex;
+    margin-top: 5.3rem;
+    margin-left: 8rem;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    justify-content: center;
+}
+.mat{
+    margin-top: 6rem;
+    display: block;
+    margin-left: 8rem;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial Rounded MT bold ;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px rgb(135, 218, 222);
+
+}
+span{
+    font-weight: lighter;
+    font-size: 22px;
+}
+.fat{
+    display: flex;
+    margin-top: 3.5rem;
+    justify-content: space-around;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.cat{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 2px;
+    padding-bottom: 4px;
+    text-shadow: 1px 2px rgb(135, 218, 222);
+
+    
+}
+.tad{
+    padding-left: 17px;
+}
+}
+@media screen and (max-width: 499px){
+    .past{
+       display: block;
+       justify-content: space-between;
+       margin: auto;
+       margin-top: 12rem;
+       max-width: 330px;
+       background-color: rgb(247, 224, 231);
+       padding-bottom: 20px;
+       border-radius: 20px;
+    }
+    .sat{
+        background-image: url(./images/bg-pattern-card.svg);
+        height: 140px; 
+        border-radius: 20px; 
+    }
+    img{
+    position: absolute; 
+    display: flex;
+    margin-top: 5.3rem;
+    margin-left: 6.4rem;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    justify-content: center;
+    }
+    .mat{
+        margin-top: 5rem;
+        display: block;
+        margin-left: 5rem;
+        font-size: 19px;
+        font-weight: bold;
+        font-family: Arial Rounded MT bold ;
+        letter-spacing: 3px;
+        text-shadow: 1px 2px rgb(135, 218, 222);
+    }
+    span{
+        font-weight: lighter;
+        font-size: 22px;
+    }
+    .fat{
+        display: flex;
+        margin-top: 3rem;
+        justify-content: space-around;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .cat{
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 7px;
+        padding-right: 2px;
+        padding-bottom: 4px;
+        text-shadow: 1px 2px rgb(135, 218, 222);
+    }
+    .tad{
+        padding-left: 12px;
+    }
+}
